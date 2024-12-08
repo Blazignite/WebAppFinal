@@ -1,0 +1,477 @@
+/* Tilt Warp Font */
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+/* Montserrat Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tilt+Warp&display=swap');
+/* Poppins Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Tilt Warp", serif;
+}
+
+body {
+margin-top: 11vh;
+font-family: D, sans-serif;
+width: 100%;
+height: 100%;
+background: rgb(217, 217, 217);
+background: linear-gradient(180deg, rgba(217, 217, 217, 1) 0%, rgba(5, 10, 48, 1) 80%);
+}
+
+.navContainer{  
+width: 100%;
+height: auto;
+position: fixed;
+top: 0;
+z-index: 10;
+background-color: #050a30;
+display: flex;
+justify-content: flex-start;
+box-shadow: -1px 5px 10px 1px ;
+gap: 10%;
+}
+
+#owner{
+padding-top: 1rem;
+width: 25rem;
+height: 15vh;
+}
+
+.logoContainer{
+width: 20%;
+display: flex;
+align-self: center;
+margin-left: 1%;
+}
+
+.btnContainer{
+width: 60%;
+display: flex;
+align-self: center;
+justify-content: flex-end;
+margin-left: 5.6rem;
+}
+
+.btnContainer a {
+align-self: center;
+text-decoration: none;
+margin-left: 1rem;
+font-size: 1.4rem;
+height: auto;
+color: #FFFFFF;
+padding: 5px 10px;
+font-weight: 300;
+}
+
+a:hover{
+border-radius: 0.6rem;
+color: #ADADAD;
+}
+
+#Home{
+color: #264D7F;
+background-color: #ADADAD;
+scale: 10px;
+border-radius: 60px;
+}
+
+.Footer {
+margin-top: 2rem;
+width: 100%;
+height: auto;
+background-color: #050a30;
+display: flex;
+justify-content: space-between;
+padding-top: 0.5rem;
+}
+
+.ftrContnt {
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 15%;
+height: auto;
+color: #adadad;
+}
+
+.ftrContnt a {
+text-decoration: none;
+color: #adadad;
+font-family: "Montserrat", serif;
+}
+
+.ftrContnt p {
+font-family: "Montserrat", serif;
+}
+
+.titleftr {
+padding-bottom: 1rem;
+font-weight: bold;
+color: #d9d9d9;
+}
+
+.ftrIcons {
+display: flex;
+align-self: center;
+width: 15%;
+height: auto;
+}
+
+.ftrContnt section {
+display: flex;
+flex-direction: column;
+align-self: center;
+}
+
+#ftrImg {
+height: 10rem;
+width: 90%;
+}
+
+.ftrIcon {
+width: 100%;
+height: 3rem;
+}
+
+.iconlink {
+margin-left: 1rem;
+}
+
+#CompanyDiv {
+padding-left: 4rem;
+}
+
+.below {
+width: 100%;
+height: auto;
+background-color: #d9d9d9;
+display: flex;
+justify-content: center;
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+}
+
+.below p {
+font-size: 1rem;
+font-family: "Montserrat", serif;
+font-style: italic;
+color: #264d7f;
+}
+
+.servicesRectangle {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 60%;
+  height: 13rem;
+  padding-bottom: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 5rem;
+  border-radius: 50px;
+  background-color: #264D7F;
+  color: #FFFFFF;
+  -webkit-box-shadow: 0px 10px 5px 0px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 10px 5px 0px rgba(0,0,0,1);
+  box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.5);
+  margin-left: auto;  
+  margin-right: auto;
+}
+
+.servicesContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 80rem;
+  height: auto;
+  border-radius: 96px;
+  background: linear-gradient(-40deg, #050a2e,#264c7e 100%);
+  margin-top: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.servTop{
+  display: flex;
+  gap: 2.6rem;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 2.3rem;
+  padding-bottom: 1rem;
+  background: none;
+}
+
+.servBottom{
+  display: flex;
+  flex-direction: row;
+  gap: 2.6rem;
+  justify-content: center;
+  padding-bottom: 2.3rem;
+  background: none;
+}
+
+.servicesText {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 1.5rem;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+  margin-bottom: 0.6rem;
+}
+
+.servicePic{
+  width: 270px;
+  height: 150px;
+  border-radius: 26px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+}
+
+.serviceCom{
+  width: 17rem;
+  height: 9.4rem;
+  border-radius: 26px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-image: url(services/[5]\ COMMERCIAL.png);
+  background-size: 195%; 
+  background-position: 8% 20%;
+  background-repeat: no-repeat;
+}
+
+.miniContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 20.25rem;
+  height: 18.4rem;
+  background: #264D7F;
+  border-radius: 74px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),0px 4px 4px rgba(0, 0, 0, 0.25),0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navLogo {
+  width: 5.3rem;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0.5rem;
+}
+
+.servicesCatBlue{
+  background: -webkit-linear-gradient(90deg, #264D7F, #050A30);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 5rem;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+}
+
+.servicesCatWhite{
+  background: -webkit-linear-gradient(90deg, #ffffff, #999999);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 5rem;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+}
+
+.servicesMain{
+  display: flex;
+  flex-direction: column;
+  margin-top: 8vh;
+  background: none;
+}
+
+.services{
+  display: flex;
+  flex-direction: column;
+  margin-top: 6vh;
+}
+
+.picsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1.4rem;
+  width: auto;
+  height: auto;
+  margin-top: 1.25rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.pic {
+  width: 30rem;
+  height: 30rem;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  border: solid 10px #264D7F;
+  border-radius: 10px;
+  object-fit: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200%;
+}
+
+.pic:hover {
+  transform: scale(1);
+  z-index: 1;
+}
+
+.pic:not(:hover) {
+  transform: scale(0.85);
+  z-index: 1;
+}
+
+.faux2, .faux3, .rustic, .conc1, .conc2, .conc3, .pan1, .pan2, .pan3, .vene1, .vene2, .vene3, .varn1, .varn2, .varn3 {
+  background-position: 8% 20%; 
+}
+
+.faux1{
+  background-image: url(faux/faux\ \ \(1\).png);
+  object-fit: cover;
+}
+
+.faux2 {
+  background-image: url(faux/faux\ \ \(3\).png);
+  background-size: 200%; 
+}
+
+.faux3 {
+  background-image: url(faux/faux\ \ \(2\).png);
+  background-size: 300%; 
+}
+
+.rus1{
+  background-image: url(rustic/rustic\ \ \(1\).png);
+}
+
+.rus2{
+  background-image: url(rustic/rustic\ .png);
+  background-position: 0% 20%;
+  background-size: 280%;
+}
+.rus3{
+  background-image: url(rustic/rustic\ \ \(2\).png);
+  background-size: 250%; 
+}
+
+.conc1 { 
+  background-image: url(concrete/conc1.png); 
+  background-size: 300%; 
+}
+.conc2 { 
+  background-image: url(concrete/conc2.png); 
+  background-size: 180%; 
+  background-position: 45% 20%; 
+}
+.conc3 { 
+  background-image: url(concrete/conc3.png); 
+  background-size: 180%; 
+  background-position: 45% 20%; 
+} 
+
+.pan1{
+  background-image: url(convpaint/paint1.png);
+  background-size: 250%;
+  background-position: 0% 70%;
+}
+
+.pan2{
+  background-image: url(convpaint/paint2.png);
+  background-size: 180%;
+  background-position: 50% 40%;
+}
+.pan3{
+  background-image: url(convpaint/paint3.png);
+  background-size: 180%;
+  background-position: 20% 20%;
+}
+
+.vene1{
+  background-image: url(venetian/vene1.png);
+  background-size: 250%;
+  background-position: 0% 50%;
+}
+
+.vene2{
+  background-image: url(venetian/vene2.png);
+  background-size: 200%;
+  background-position: 10% 40%;
+}
+.vene3{
+  background-image: url(venetian/vene3.png);
+  background-size: 250%;
+  background-position: 0% 80%;
+}
+
+.varn1{
+  background-image: url(varnish/varn1.png);
+  background-size: 220%;
+  background-position: 0% 50%;
+}
+
+.varn2{
+  background-image: url(varnish/varn2.png);
+  background-size: 238%;
+  background-position: 0% 40%;
+}
+.varn3{
+  background-image: url(varnish/varn3.png);
+  background-size: 180%;
+  background-position: 0% 80%;
+}
+
+/* 
+@media (max-width: 784px) {
+  .servicesRectangle {
+    width: 80%;
+    height: 10rem;
+    font-size: 3rem;
+  }
+
+  .servicesContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  
+    grid-template-rows: repeat(2, 1fr) 1fr; 
+    gap: 1.25rem;
+    justify-items: center; 
+    align-items: center;   
+  }
+
+  h1, h2, h3 {
+    font-size: 1.5rem; 
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .btn {
+    font-size: 1.1rem; 
+  }
+}
+
+@media (max-width: 375px) {
+  .btnContainer a {
+      font-size: 1rem;
+  }
+
+  .navContainer {
+      flex-direction: column;
+      align-items: center;
+  }
+} */
