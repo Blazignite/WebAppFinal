@@ -21,7 +21,7 @@ const lastName = document.getElementById("lastName");
 const phone = document.getElementById("phone");
 const email = document.getElementById("email");
 const message = document.getElementById("message");
-const messageSpan = document.querySelector("form span"); // Select the span element inside the form
+const messageSpan = document.querySelector("form span");
 
 let namePattern = /^[A-Z][a-z]{3,10}$/;
 let phonePattern = /^09[0-9]{9}$/;
